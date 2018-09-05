@@ -49,7 +49,7 @@
             loaded = true;
 
             (function repeat() {
-              API.sendChat('hello');
+              API.sendChat('@everyone We are no longer using this room! Our new room is https://plug.dj/edmspot and our discord is https://discord.gg/GETaTWm');
               setTimeout(repeat, 60000);
             })();
         }
